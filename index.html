@@ -11,44 +11,48 @@
 </head>
 
 <body>
-    <div style="background-image: url(./images/culture.jpeg); background-size: cover;background-repeat: no-repeat;backface-visibility: ;">
+    <div
+        style="background-image: url(./images/culture.jpeg); background-size: cover;background-repeat: no-repeat;backface-visibility: ;">
         <h1><strong>Akan Names</strong></h1>
         <div class="paragraph">
             <p>Akan names are derived from Ghanian culture.
-            </p>Frequently in Ghana, children are given their first name as a 'day name'<br> which corresponds to the day in
+            </p>Frequently in Ghana, children are given their first name as a 'day name'<br> which corresponds to the
+            day in
             the week they were born.</p>
             <p>Here are Ghanian day names.</p>
         </div>
-    <div class="group">
-        <label for="century" class="labels">Century</label>
-        <input type="number" class="form-control" placeholder="Enter the century" id="century" required min="0"
-            max="30">
+        <div class="group">
+            <label for="century" class="labels">Century</label>
+            <input type="number" class="form-control" placeholder="Enter the century" id="century" required min="0"
+                max="30">
+        </div>
+        <div class="group">
+            <label for="year" class="labels">Year</label>
+            <input type="number" class="form-control" placeholder="Enter the year" id="month" required min="0" max="30">
+        </div>
+        <br>
+        <div class="group">
+            <label for="month" class="labels">Month</label>
+            <input type="number" class="form-control" placeholder="Enter the month" id="year" required min="0" max="30">
+        </div>
+        <br>
+        <div class="group">
+            <label for="Day" class="labels">Day</label>
+            <input type="number" class="form-control" placeholder="Enter the day" id="year" required min="0" max="31">
+        </div>
+        <br>
+        <form class="radio-button">
+            <div class="master">
+                <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>male
+                <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female </div>
+        </form>
+        <div class="button">
+            <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+                    onclick="checkDayOfWeek();">Calculate Birthday</button></a>
+            <h1 id="result"></h1>
+        </div>
     </div>
-    <div class="group">
-        <label for="year" class="labels">Year</label>
-        <input type="number" class="form-control" placeholder="Enter the year" id="month" required min="0" max="30">
-    </div>
-    <br>
-    <div class="group">
-        <label for="month" class="labels">Month</label>
-        <input type="number" class="form-control" placeholder="Enter the month" id="year" required min="0" max="30">
-    </div>
-    <br>
-    <div class="group">
-        <label for="Day" class="labels">Day</label>
-        <input type="number" class="form-control" placeholder="Enter the day" id="year" required min="0" max="31">
-    </div>
-    <br>
-    <form class="radio-button">
-        <div class="master">
-        <input type ="radio" class="genders labels" value="male" id="rad1" name="rads" required >male
-        <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female </div>
-      </form>
-      <div class="button">
-      <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
-                    <h1 id="result"></h1>
-      </div>
-                </div>
+    <script src="js/script.js"></script>
 
 
 </body>
