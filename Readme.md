@@ -1,7 +1,7 @@
+# Akan-name
 ## Author
 
 Abdimulhin Adan.
-# Akan-name
 ## Description
 This is basically a naming website, that tells  your name in a Ghanaian accent. it has an input of the day you're born telling you the Ghanian name according to the day you're born and month plus year.
 ## Setup/Installation Requirements
