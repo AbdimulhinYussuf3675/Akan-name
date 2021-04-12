@@ -11,7 +11,7 @@ This is basically a naming website, that tells  your name in a Ghanaian accent. 
 * easy-to-understand
 * To access this project on your local files, you can clone it using these steps:
 Open your terminal
-Use this command to clone "https://github.com/AbdimulhinYussuf3675/My-Potfolio-landing-page.git"_
+Use this command to clone "https://github.com/AbdimulhinYussuf3675/Akan-name
 ## Technologies Used
 1. HTML
 2. CSS
@@ -20,7 +20,7 @@ Use this command to clone "https://github.com/AbdimulhinYussuf3675/My-Potfolio-l
 ## Support and contact details
 You can contact me through my email adamabdimulhi.001@gmail.com
 ### Live Site
-View [live](https://github.com/AbdimulhinYussuf3675/My-Potfolio-landing-page.git)
+View [live](https://abdimulhinyussuf3675.github.io/Akan-name/)
 ### Licence
 This project is under the  [MIT](LICENCE) licence
 License format:
